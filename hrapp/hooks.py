@@ -5,6 +5,35 @@ app_description = "custom app"
 app_email = "muralidharna.rajini@infiligence.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "doctype": "Custom Field"
+    },
+    {
+        "doctype": "Property Setter"
+    },
+    {
+        "doctype": "Client Script"
+    },
+    {
+        "doctype": "Server Script"
+    },
+    {
+        "doctype": "Notification"
+    },
+    {
+        "doctype": "Workflow"
+    },
+    {
+        "doctype": "Workflow State"
+    },
+    {
+        "doctype": "Workflow Action"
+    },
+    {
+        "doctype": "Print Format"
+    }
+]
 # Apps
 # ------------------
 

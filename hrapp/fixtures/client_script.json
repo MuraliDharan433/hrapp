@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Employee",
+  "enabled": 1,
+  "modified": "2026-04-17 14:25:37.526579",
+  "module": "Hrapp",
+  "name": "Employee",
+  "script": "frappe.ui.form.on('Employee', {\n    refresh(frm) {\n        console.log(\"Client Script Working 🚀\");\n    }\n});",
+  "view": "Form"
+ }
+]
