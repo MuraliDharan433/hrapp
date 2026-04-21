@@ -9,5 +9,16 @@
   "name": "Employee",
   "script": "frappe.ui.form.on('Employee', {\n    refresh(frm) {\n        console.log(\"Client Script Working 🚀\");\n    }\n});",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Employee",
+  "enabled": 1,
+  "modified": "2026-04-21 13:44:49.579302",
+  "module": "Hrapp",
+  "name": "Test File",
+  "script": "frappe.ui.form.on('Employee', {\n\trefresh(frm) {\n\t\t// your code here\n\t}\n})",
+  "view": "Form"
  }
 ]
