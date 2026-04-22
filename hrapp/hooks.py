@@ -19,7 +19,8 @@ fixtures = [
         "doctype": "Server Script"
     },
     {
-        "doctype": "Notification"
+        "doctype": "Notification",
+        "filters": [["module", "=", "Hrapp"]]
     },
     {
         "doctype": "Workflow"
