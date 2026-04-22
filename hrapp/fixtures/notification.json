@@ -266,5 +266,48 @@
   "slack_webhook_url": null,
   "subject": "Exit Interview Scheduled: {{ doc.name }}",
   "value_changed": null
+ },
+ {
+  "attach_files": "",
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": null,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Employee",
+  "enabled": 1,
+  "event": "New",
+  "from_attach_field": null,
+  "is_standard": 0,
+  "message": "Add your message here",
+  "message_type": "Markdown",
+  "method": null,
+  "modified": "2026-04-22 11:05:52.451861",
+  "module": null,
+  "name": "Test Notification",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "Test Notification",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "owner",
+    "receiver_by_role": null
+   }
+  ],
+  "send_system_notification": 0,
+  "send_to_all_assignees": 0,
+  "sender": null,
+  "sender_email": null,
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "Test",
+  "value_changed": null
  }
 ]
