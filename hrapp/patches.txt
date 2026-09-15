@@ -2,3 +2,5 @@
 hrapp.patches.delete_old_fields
 
 [post_model_sync]
+hrapp.patches.set_employee_naming_series
+hrapp.patches.remove_test_fixtures

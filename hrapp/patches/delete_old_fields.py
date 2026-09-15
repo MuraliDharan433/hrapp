@@ -10,5 +10,5 @@ def execute():
         frappe.delete_doc("Notification", "Test Notification")
 
     # Delete workflow
-    if frappe.db.exists("Workflow", "Old Workflow"):
-        frappe.delete_doc("Workflow", "Old Workflow")
+    if frappe.db.exists("Workflow", "Test Workflow"):
+        frappe.delete_doc("Workflow", "Test Workflow")
